@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    width: 270px;
+    height: 250px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+}
+
+.button {
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.affair {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.affair button {
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 0 auto;
+}

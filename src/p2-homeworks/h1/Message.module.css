@@ -1,0 +1,94 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.message {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: flex-end;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.post {
+    /*width: 200px;*/
+    position: relative;
+    grid-area: p;
+    background-color: #4a4b4b;
+    border-start-end-radius: 16px;
+    border-start-start-radius: 16px;
+    border-end-start-radius: 30px;
+    border-end-end-radius: 16px;
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.post :before, :after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    margin-bottom: 1px;
+}
+
+.post :before {
+    left: 0px;
+    width: 10px;
+    background-color: #4a4b4b;
+    border-bottom-right-radius: 10px 14px;
+}
+
+.post :after {
+    left: 0px;
+    width: 15px;
+    background-color: #4a4b4b;
+    border-bottom-right-radius: 40px;
+}
+
+.ava img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #36bdef;
+    margin-left: 17px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.text {
+    color: #fafdff;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: medium;
+    word-wrap: break-word;
+}
+
+
+.time {
+    color: #a2a1a1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 600px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.errorcolor {
+    color: red;
+}
+
+span {
+    margin-left: 5px;
+}
+
+button {
+    width: 50px;
+    height: 25px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+input {
+    height: 25px;
+}
