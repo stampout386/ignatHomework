@@ -1,0 +1,18 @@
+
+.spanClassName {
+    border: 1px solid #124923;
+    font-size: 20px;
+    color: #084d1c;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0;
+}
+
+
+.spanDiv {
+    margin: 10px;
+}
+
+.homeworkSix {
+    text-align: center
+}
