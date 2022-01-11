@@ -11,11 +11,16 @@ type MessagePropsType = {
 
 function Message(props: MessagePropsType) {
     return (
-        <div className={s.message}>
-            <div className={s.ava}><img src={props.avatar} alt=""/></div>
-            <div className={s.post}>
-                <div><h5 className={s.name}>{props.name}</h5></div>
-                <div className={s.text}>{props.message}</div>
+        <div className={s.main}>
+            <div className={s.avatar}>
+                <img src={props.avatar} alt=""/>
+                <div className={s.angle}>
+                    <div className={s.in}></div>
+                </div>
+            </div>
+            <div className={s.text}>
+                <div><h3 className={s.name}>{props.name}</h3></div>
+                <div className={s.message}>{props.message}</div>
                 <div className={s.time}>{props.time}</div>
             </div>
 

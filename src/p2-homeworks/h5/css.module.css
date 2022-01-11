@@ -1,0 +1,31 @@
+.div {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu {
+    width: 350px;
+    margin-left: -350px;
+    transition: 1s;
+
+}
+
+.show {
+    width: 350px;
+    margin-left: 0px;
+    transition: 1s;
+}
+
+
+.item {
+    margin: 5px;
+    color: #1ab75b;
+    text-decoration: none;
+}
+
+.active {
+    margin: 10px;
+    color: #124923;
+    text-decoration: none;
+}
+

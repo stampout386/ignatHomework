@@ -1,0 +1,18 @@
+.error {
+    text-align: center;
+    background: #ee9999;
+}
+
+.title {
+    font-size: 100px;
+    color: #084d4d;
+}
+
+.text {
+    font-size: 50px;
+    color: #084d4d;
+}
+
+.cat {
+    font-size: 30px;
+}

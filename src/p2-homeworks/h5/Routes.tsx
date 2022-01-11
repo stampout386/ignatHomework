@@ -20,7 +20,7 @@ export function MyRoutes() {
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={PATH.JUNIOR_PlUS} element={<JuniorPlus/>}/>
-                <Route element={<Error404/>}/>
+                <Route path={'/Error404'} element={<Error404/>}/>
             </Routes>
         </div>
     )

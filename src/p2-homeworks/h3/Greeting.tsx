@@ -18,9 +18,10 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = error ? s.error : ''
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
+            <SuperInputText value={name} onChange={setNameCallback} className={inputClass}/>
+            {/*<input value={name} onChange={setNameCallback} className={inputClass}/>*/}
             <SuperButton onClick={addUser}>add</SuperButton>
-            <button onClick={addUser}>add</button>
+            {/*<button onClick={addUser}>add</button>*/}
             <span>{totalUsers}</span>
             <div><span className={s.errorcolor}>{error}</span></div>
         </div>

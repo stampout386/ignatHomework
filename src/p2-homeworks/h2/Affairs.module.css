@@ -1,11 +1,12 @@
 .container {
     margin: 0 auto;
-    width: 270px;
-    height: 250px;
+    width: 30%;
+    height: 70%;
     border: 1px solid black;
     display: grid;
     grid-template-rows: auto;
     padding: 10px;
+    background-color: #c8eed3;
 }
 
 .button {
@@ -28,4 +29,8 @@
 
 .buttons {
     margin: 0 auto;
+}
+
+.hrs {
+    margin: 10px;
 }
