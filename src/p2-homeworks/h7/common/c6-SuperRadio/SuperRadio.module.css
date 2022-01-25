@@ -1,0 +1,16 @@
+.radio {
+    margin-top: 20px;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+    border-radius: 30%;
+    outline: none;
+    border: #084d1c solid 1px;
+}
+
+
+.radio:checked {
+    background: #084d1c;
+}
