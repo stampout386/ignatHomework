@@ -1,0 +1,16 @@
+.container {
+    margin: 0 auto;
+    width: 30%;
+    height: 70%;
+    border: 1px solid #084d1c;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+    background-color: #c8eed3;
+}
+
+
+span {
+    margin-left: 30px;
+}
