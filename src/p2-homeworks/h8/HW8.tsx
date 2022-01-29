@@ -21,6 +21,7 @@ const initialPeople: UsersType = [
 ]
 
 function HW8() {
+
     const [people, setPeople] = useState<UsersType>(initialPeople) // need to fix any
 
     // need to fix any
@@ -30,9 +31,9 @@ function HW8() {
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(people, {type: 'sortUp', payload: 'up'}))
-    const sortDown = () => setPeople(homeWorkReducer(people, {type: 'sortDown', payload: 'down'}))
-    const CheckEighteen = () => setPeople(homeWorkReducer(people, {type: 'sortCheck', payload: '18'}))
+    const sortUp = () => setPeople(homeWorkReducer(people, {type: 'sort', payload: 'up'}))
+    const sortDown = () => setPeople(homeWorkReducer(people, {type: 'sort', payload: 'down'}))
+    const CheckEighteen = () => setPeople(homeWorkReducer(people, {type: 'check', payload: '18'}))
 
 
     return (
