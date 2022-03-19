@@ -7,7 +7,7 @@ import s from './loader.module.css'
 
 function HW10() {
     // useSelector, useDispatch
-    const loading = useSelector<AppStoreType>(state => state.loading.loading)
+    const loading = useSelector<AppStoreType>(state => state.loading.isLoading)
     const dispatch = useDispatch();
 
     const setLoading = () => {

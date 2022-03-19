@@ -1,16 +1,16 @@
 const initState = {
-    loading: false
+    isLoading: false
 }
 
 type StateType = {
-    loading: boolean
+    isLoading: boolean
 }
 
 export const loadingReducer = (state: StateType = initState, action: ActionType): StateType => {
     switch (action.type) {
         case 'GET_LOADING': {
 
-            return {loading: action.loading}
+            return {isLoading: action.loading}
         }
         default:
             return state
