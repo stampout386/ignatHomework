@@ -8,8 +8,10 @@ import {changeThemeAC} from "../h10/bll/themeReducer";
 const themes = ['dark', 'red', 'some'];
 
 function HW12() {
+
     const theme = useSelector<AppStoreType, string>(state => state.theme.theme)
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+
 
     const onChangeTheme = (theme: string) => {
         dispatch(changeThemeAC(theme))
