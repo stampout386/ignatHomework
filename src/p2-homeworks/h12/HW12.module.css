@@ -15,9 +15,13 @@
 }
 
 .some {
-    background: lightgreen;
+    background: #c8eed3;
 }
 
 .some-text {
     color: darkslateblue;
+}
+
+.select {
+    margin-left: 20px;
 }

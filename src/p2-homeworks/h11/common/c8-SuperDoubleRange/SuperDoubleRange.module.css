@@ -8,7 +8,7 @@
 .container input[type="range"] {
     height: 1em;
     display: block;
-    width: 150px;
+    width: 130px;
 }
 
 .container input[type="range"]:last-child {
