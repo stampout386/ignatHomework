@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
-import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
+import {SuperDoubleRange} from "./common/c8-SuperDoubleRange/SuperDoubleRange";
+
 
 function HW11() {
     const [value1, setValue1] = useState(0)
@@ -9,6 +10,11 @@ function HW11() {
 
     const onChangeRange = (value: number) => {
         setValue1(value)
+    }
+
+    const changeTwoValue = (value: [number, number] | number[]) => {
+        setValue1(value[0])
+        setValue2(value[1])
     }
 
     return (
@@ -29,7 +35,8 @@ function HW11() {
             <div>
                 <span>{value1}</span>
                 <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
+                    value={[value1, value2]}
+                    onChangeRange={changeTwoValue}
                 />
                 <span>{value2}</span>
             </div>
